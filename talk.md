@@ -36,7 +36,9 @@ The toolbox
 
 ---
 
-class: middle, black-slide
+class: middle, black-slide, center
+
+# A typical science experiment
 
 .center[<video controls autoplay loop muted preload="auto" height="480" width="640">
   <source src="./figures/galton.mp4" type="video/mp4">

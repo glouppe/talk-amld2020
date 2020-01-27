@@ -69,6 +69,10 @@ color: rgb(180,180,180,1.0);
     color: #17525d;
 }
 
+.black-slide h1 {
+    color: white;
+}
+
 .remark-slide-content h2 {
     font-size: 1.1em;
     font-weight: bold;
