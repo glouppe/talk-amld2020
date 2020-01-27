@@ -169,7 +169,7 @@ class: middle
   <source src="./figures/toolbox.mp4" type="video/mp4">
 </video>
 
-Since  **supervised classification** is equivalent to *likelihood ratio estimation*, the whole Deep Learning toolbox can be used for inference!
+**Supervised classification** is equivalent to *likelihood ratio estimation*,<br> therefore the whole Deep Learning toolbox can be used for inference!
 ]
 
 .footnote[Credits: [Oriol Vinyals](https://twitter.com/OriolVinyalsML/status/1212422497339105280), 2020.]
@@ -284,7 +284,7 @@ class: middle, black-slide
 
 .grid[
 .kol-1-3[
-Number of dark matter subhalos and their mass and location lead to complex latent space of each image. The goal is the .bold[inference of population parameters $\beta$ and $f\_\text{sub}$.]
+The number of dark matter subhalos and their mass and location lead to complex latent space of each image. The goal is the .bold[inference of population parameters $\beta$ and $f\_\text{sub}$.]
 ]
 .kol-2-3.width-100[![](figures/dm-inference.png)]
 ]
@@ -319,17 +319,16 @@ class: black-slide, middle
 
 ## ③ Constraining the WDM particle mass
 
-.center[.width-45[![](figures/stellar1.png)] .width-45[![](figures/stellar2.png)]]
+.center[.width-50[![](figures/stellar1.png)] .width-45[![](figures/stellar2.png)]]
 
-Reveal the nature of the  dark matter model via the observations of stellar streams to .bold[constrain the mass of the dark matter particle].
+Dark matter subhalos cause disturbances in the density of stellar streams. 
+
+Therefore, observations of stellar streams may be used to .bold[constrain the mass of the dark matter particle].
 
 ???
 
-- The spatial distribution of subhalos reveals the dark matter model (which depends on m_wdm).
-- The n-body simulations predict this particular structure (left top figure). Sadly, we can't see this (dark) matter. We need some indirect evidence which interacts with the subhalos in the halo of the galaxy -> stellar streams move through this region.
 - The stars in a stream interact gravitationally  with the subhalos, causing disturbances in the stellar density of the stream.
 - These disturbances are in function of m_wdm.
-- Dealing with the nuisance parameters (bar of the galaxy, gravitational interaction with the spiral arms and molecular clouds), times which the subhalos have impacted the streams (and their population parameters), initial conditions, ...
 - By constraining the mass we essentially (by proxy) infer the DM model.
 
 ---
