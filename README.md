@@ -1,6 +1,6 @@
 # A short introduction to Neural Likelihood-free Inference for Physics
 
-Online version at https://glouppe.github.io/talk-amld2020/index.html?p=talk.md.
+Online version at https://glouppe.github.io/talk-amld2020
 
 This talk is a summary of the following papers:
 - Cranmer, K., Brehmer, J., & Louppe, G. (2019). The frontier of simulation-based inference. arXiv preprint arXiv:1911.01429.
