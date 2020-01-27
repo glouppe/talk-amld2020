@@ -13,29 +13,6 @@ Gilles Louppe<br>
 
 ---
 
-# ML in (particle) physics
-
-<br>
-.center.width-80[![](figures/inspire.png)]
-
-.footnote[Credits: [Maxim Perlstein](https://indico.cern.ch/event/809820/contributions/3632524/attachments/1970025/3276770/ML4Jets_Perelstein_2020.pdf), 2020.]
-
----
-
-class: middle
-
-.center[
-<video preload="auto" height="400" width="750" autoplay loop>
-  <source src="./figures/toolbox.mp4" type="video/mp4">
-</video>
-
-The toolbox
-]
-
-.footnote[Credits: [Oriol Vinyals](https://twitter.com/OriolVinyalsML/status/1212422497339105280), 2020.]
-
----
-
 class: middle, black-slide, center
 
 # A typical science experiment
@@ -171,17 +148,31 @@ class: middle
 The solution $\hat{s}$ found after training  approximates the optimal classifier
 $$\hat{s}(x) \approx s^\*(x) = \frac{p(x|\theta\_1)}{p(x|\theta\_0)+p(x|\theta\_1)}.$$
 
-Therefore, $$r(x|\theta\_0,\theta\_1) \approx \hat{r}(x|\theta\_0,\theta\_1)=\frac{1-\hat{s}(x)}{\hat{s}(x)}$$
-
-That is, **supervised classification** is equivalent to *likelihood ratio estimation*.
+Therefore, $$r(x|\theta\_0,\theta\_1) \approx \hat{r}(x|\theta\_0,\theta\_1)=\frac{1-\hat{s}(x)}{\hat{s}(x)}.$$
 
 .footnote[Cranmer, Pavez and Louppe, 2015 [[arXiv:1506.02169](https://arxiv.org/abs/1506.02169)].]
 
 ---
 
-class: middle 
+class: middle
 
 .center.width-100[![](figures/inference-1.png)]
+
+.footnote[Cranmer, Pavez and Louppe, 2015 [[arXiv:1506.02169](https://arxiv.org/abs/1506.02169)].]
+
+---
+
+class: middle
+
+.center[
+<video preload="auto" height="400" width="750" autoplay loop>
+  <source src="./figures/toolbox.mp4" type="video/mp4">
+</video>
+
+Since  **supervised classification** is equivalent to *likelihood ratio estimation*, the whole Deep Learning toolbox can be used for inference!
+]
+
+.footnote[Credits: [Oriol Vinyals](https://twitter.com/OriolVinyalsML/status/1212422497339105280), 2020.]
 
 ---
 
