@@ -234,7 +234,7 @@ The Bayes rule can be rewritten as
 $$p(\theta|x) = \frac{p(x|\theta) p(\theta)}{p(x)} = r(x|\theta) p(\theta) \approx \hat{r}(x|\theta)p(\theta),$$
 where $r(x|\theta) = \frac{p(x|\theta)}{p(x)}$ is the likelihood-to-evidence ratio.
 
-The likelihood-to-evidence ratio can be learned with a neural network tasked to distinguish  $x \sim p(x|\theta)$  from $x \sim p(x)$.
+The likelihood-to-evidence ratio can be learned with a neural network tasked to distinguish  $x,\theta \sim p(x|\theta)p(\theta)$  from $x,\theta \sim p(x)p(\theta)$.
 
 This enables *direct* and **amortized**  posterior evaluation.
 .grid.center[
